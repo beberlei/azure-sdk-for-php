@@ -20,6 +20,15 @@
     <log type="junit" target="build/logs/junit.xml" logIncompleteSkipped="false"/>
   </logging>
 
+  <!--
+  <php>
+    <env name="AZURE_STORAGE_ACCOUNT" value="" />
+    <env name="AZURE_STORAGE_KEY" value="" />
+    <env name="SERVICE_MANAGEMENT_SUBSCRIPTION_ID" value="" />
+    <env name="SERVICE_CERTIFICATE_PATH" value="" />
+  </php>
+  -->
+
   <filter>
     <whitelist addUncoveredFilesFromWhitelist="true">
       <directory suffix=".php">WindowsAzure</directory>
